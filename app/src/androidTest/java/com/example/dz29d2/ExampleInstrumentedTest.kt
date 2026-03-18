@@ -230,11 +230,9 @@ class ExampleInstrumentedTest {
                 action = Intent.ACTION_MAIN
                 addCategory(Intent.CATEGORY_LAUNCHER)
             }
-            println("Intent создан вручную")
         }
 
         ApplicationProvider.getApplicationContext<Context>().startActivity(intent)
-        println("Запуск приложения...")
 
         Thread.sleep(2000)
 
@@ -268,11 +266,9 @@ class ExampleInstrumentedTest {
                 action = Intent.ACTION_MAIN
                 addCategory(Intent.CATEGORY_LAUNCHER)
             }
-            println("Intent создан вручную")
         }
 
         ApplicationProvider.getApplicationContext<Context>().startActivity(intent)
-        println("Запуск приложения...")
 
         Thread.sleep(2000)
 
@@ -308,11 +304,9 @@ class ExampleInstrumentedTest {
                 action = Intent.ACTION_MAIN
                 addCategory(Intent.CATEGORY_LAUNCHER)
             }
-            println("Intent создан вручную")
         }
 
         ApplicationProvider.getApplicationContext<Context>().startActivity(intent)
-        println("Запуск приложения...")
 
         Thread.sleep(2000)
 
@@ -372,7 +366,6 @@ class ExampleInstrumentedTest {
                 action = Intent.ACTION_MAIN
                 addCategory(Intent.CATEGORY_LAUNCHER)
             }
-            println("Intent создан вручную")
         }
 
         ApplicationProvider.getApplicationContext<Context>().startActivity(intent)
